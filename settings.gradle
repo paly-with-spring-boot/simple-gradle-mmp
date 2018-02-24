@@ -1,0 +1,4 @@
+rootProject.name = 'simple-gradle-mmp'
+
+include 'lib'
+//include 'app'
