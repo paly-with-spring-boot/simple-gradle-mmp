@@ -32,6 +32,6 @@ dependencies {
 	testCompile("org.springframework.boot:spring-boot-starter-test")
 }
 
-dependency-management {
-	import { mavenBom("org.springframework.boot:spring-boot-dependencies:${springBootVersion}") }
+dependencyManagement {
+	imports { mavenBom("org.springframework.boot:spring-boot-dependencies:${springBootVersion}") }
 }
